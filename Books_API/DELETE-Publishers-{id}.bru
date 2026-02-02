@@ -1,0 +1,15 @@
+meta {
+  name: DELETE/Publishers/{id}
+  type: http
+  seq: 24
+}
+
+delete {
+  url: http://localhost:8000/publishers/1
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

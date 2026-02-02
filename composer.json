@@ -1,0 +1,10 @@
+{
+    "name": "abospeti/php-rest-api",
+    "description": "Egyszerű REST API PHP-ban",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}

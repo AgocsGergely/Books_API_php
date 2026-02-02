@@ -1,0 +1,16 @@
+meta {
+  name: GET/Authors/id/books
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:8000/authors/2/books
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,16 @@
+meta {
+  name: PUT/Authors/{id}
+  type: http
+  seq: 12
+}
+
+put {
+  url: http://localhost:8000/authors/{id}
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

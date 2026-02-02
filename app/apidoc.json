@@ -1,0 +1,7 @@
+{
+    "name": "ZIP API",
+    "version": "1.0.0",
+    "description": "A RESTful API for retrieving ZIP code information.",
+    "title": "ZIP API Documentation",
+    "url": "http://localhost:8000"
+}

@@ -1,0 +1,16 @@
+meta {
+  name: PUT/Books
+  type: http
+  seq: 11
+}
+
+put {
+  url: http://localhost:8000/books/{id}
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
