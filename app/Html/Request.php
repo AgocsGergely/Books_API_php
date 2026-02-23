@@ -123,7 +123,7 @@ class Request
             return Response::error('Route not allowed');
         }
 
-        // Feldolgozzuk az URI-t és az adatokat
+        // Feldolgozzuk az URI-t és az adatokat.
         $requestData = self::getRequestData();
         $arrUri = self::requestUriToArray($_SERVER['REQUEST_URI']);
         $resourceName = self::getResourceName($arrUri);
